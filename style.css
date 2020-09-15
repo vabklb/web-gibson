@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kufam', cursive;
+}
+.banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/4-49012_guitar-wallpaper-gibson-es-335-background.jpg);
+}
+
+.sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    margin: auto;
+}
+.sombra hr{
+    border-top: 1px solid #ffffff;
+}
+
+.sombra h1{
+    font-size: 9vw;
+    margin-bottom: 10px;
+}
+.sombra p{
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+.banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+.banner_link a{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.banner_link a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.banner_link-0{
+    opacity: 0;
+    animation: aparicion 1s;
+    -webkit-animation: aparicion 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner_link-1{
+    opacity: 0;
+    animation: aparicion 1.5s;
+    -webkit-animation: aparicion 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.banner_link-2{
+    opacity: 0;
+    animation: aparicion 2s;
+    -webkit-animation: aparicion 2s;
+    animation-fill-mode: forwards;
+}
+
+.estyle_navbar{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.estyle_navbar div, .estyle_navbar ul{
+    background-color: transparent !important;
+}
+.op{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
